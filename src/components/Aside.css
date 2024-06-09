@@ -1,0 +1,21 @@
+.aside {
+    background-color: #202020;
+    width: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.aside .aside-item {
+    padding: 15px 0;
+    margin: 0px 10px;
+    cursor: pointer;
+    color: white;
+}
+
+    
+@media (min-width: 768px) {
+    .aside {
+        display: block;
+    }
+}

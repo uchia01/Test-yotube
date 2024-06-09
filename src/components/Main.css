@@ -1,0 +1,49 @@
+.main {
+    flex-grow: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.category-bar {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+.category-item {
+    padding: 10px 20px;
+    background-color: #383838;
+    border-radius: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    white-space: nowrap;
+    color: white;
+}
+
+.category-item:hover {
+    background-color: #606060;
+}
+
+.videos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.video {
+    background-color: #202020;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+}
+
+.video img {
+    width: 100%;
+    display: block;
+}
+
+.video-info {
+    padding: 10px;
+    box-sizing: border-box;
+}

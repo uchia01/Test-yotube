@@ -1,0 +1,19 @@
+.nav {
+    background-color: #202020;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.nav .nav-item {
+    padding: 15px; 
+    margin: 0px 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.nav .nav-item:hover {
+    background-color: #383838;
+}
